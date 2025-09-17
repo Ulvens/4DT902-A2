@@ -1,0 +1,8 @@
+1. float.ofp
+2. arithmetic.ofp
+3. boolean.ofp
+4. while.ofp
+5. recursion.ofp
+6. max.ofp
+7. arrays.ofp
+8. strings.ofp
