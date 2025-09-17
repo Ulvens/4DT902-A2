@@ -1,7 +1,7 @@
 /**
  * Define a grammar called ofp
  */
-grammar eu222dq_A1_ofp;
+grammar OFP;
 
 @header {    // Define name of package for generated Java files. 
     package generated;

@@ -10,7 +10,7 @@
 			"visualParseTreeClustered": false
 		},
 		"antlr4.generation": {
-			"outputDir": "/home/ulv/Documents/y4/4DT902/A1/generated",
+			"outputDir": "/home/ulv/Documents/y4/4DT902/4DT902-A2/src/generated",
 			"mode": "external",
 			"language": "Java",
 			"listeners": true,
@@ -22,8 +22,8 @@
 					"type": "antlr-debug",
 					"request": "launch",
 					"name": "Debug PlusMult",
-					"grammar": "/home/ulv/Documents/y4/4DT902/A1/src/eu222dq_A1_ofp.g4",
-					"input": "/home/ulv/Documents/y4/4DT902/A1/src/inputs/test.ofp",
+					"grammar": "/home/ulv/Documents/y4/4DT902/4DT902-A2/src/OFP.g4",
+					"input": "/home/ulv/Documents/y4/4DT902/4DT902-A2/src/inputs/test.ofp",
 					"visualParseTree": true
 
 				}
@@ -33,7 +33,7 @@
 		"/home/ulv/Documents/jars/antlr4-4.13.1.jar",
 		"/home/ulv/Documents/jars/antlr4-runtime-4.13.1.jar",
 		"/home/ulv/Documents/jars/org.abego.treelayout.core-1.0.3.jar"
-		],
+		]
 
 	}
 }
