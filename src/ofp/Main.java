@@ -13,6 +13,7 @@ import java.io.IOException;
 import org.antlr.v4.runtime.BufferedTokenStream;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
+import org.antlr.v4.runtime.tree.ParseTreeWalker;
 import org.antlr.v4.gui.Trees;
 
 import generated.OFPLexer;
@@ -49,7 +50,17 @@ public class Main  {
 
         // Display tree
         Trees.inspect(root, parser);
-        
+
+        ParseTreeWalker walker = new ParseTreeWalker();
+
+        PrintListener printListener = new PrintListener(); // PrintListener implements
+
+        walker.walk(printListener, root); // BaseListener
+        System.out.println("\nParse tree printed using a listener");
+        //Symbol table construction using a listener ... (This lecture)
+        //Symbol reference checking using a listener ... (Next lecture)
+        //Type checking using a visitor ... 
+
     }
 }
 

@@ -1,5 +1,11 @@
 # README for A2
 
+## Java version
+
+Use of java 11.0.26-tem
+
+## INstructions from moodle
+
 The One-file Program Project: Step 2 - Symbol Table and Type Checking
 
 First of all, in Assignment 2 you are encouraged to work in pairs. It is not mandatory, you can work by yourself if you want to, but remember that Assignment 2 is both tricky and time consuming. Hence, it makes sense to work in pairs.
